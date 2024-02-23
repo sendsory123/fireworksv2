@@ -115,10 +115,7 @@ Particle.prototype = {
 function createFirework() {
   //Increase range for bigger fireworks
   var numberOfParticles = randomNumberGenerator(10, 50);
-  let color = `rgb(${randomNumberGenerator(0, 255)},${randomNumberGenerator(
-    0,
-    255
-  )},${randomNumberGenerator(0, 255)})`;
+  let color = #a17fe9
 
   for (var i = 0; i < numberOfParticles; i++) {
     var particle = new Particle();
